@@ -49,3 +49,47 @@
 2014-07-11 11:39:07.594 HelloCordova[18504:70b] Resetting plugins due to page load.
 2014-07-11 11:39:07.723 HelloCordova[18504:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
 Terminating in response to SpringBoard's termination.
+2014-08-04 13:07:20.937 HelloCordova[91357:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 13:07:20.996 HelloCordova[91357:70b] Unlimited access to network resources
+2014-08-04 13:07:22.380 HelloCordova[91357:70b] [CDVTimer][statusbar] 225.571990ms
+2014-08-04 13:07:22.381 HelloCordova[91357:70b] [CDVTimer][keyboard] 0.132024ms
+2014-08-04 13:07:22.381 HelloCordova[91357:70b] [CDVTimer][TotalPluginStartup] 226.989985ms
+2014-08-04 13:07:22.584 HelloCordova[91357:70b] Resetting plugins due to page load.
+2014-08-04 13:07:23.233 HelloCordova[91357:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+2014-08-04 13:48:57.011 HelloCordova[93141:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 13:48:57.065 HelloCordova[93141:70b] Unlimited access to network resources
+2014-08-04 13:48:57.124 HelloCordova[93141:70b] [CDVTimer][statusbar] 6.406963ms
+2014-08-04 13:48:57.125 HelloCordova[93141:70b] [CDVTimer][keyboard] 0.095010ms
+2014-08-04 13:48:57.125 HelloCordova[93141:70b] [CDVTimer][TotalPluginStartup] 7.373035ms
+2014-08-04 13:48:57.170 HelloCordova[93141:70b] Resetting plugins due to page load.
+2014-08-04 13:48:57.360 HelloCordova[93141:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+2014-08-04 13:50:16.548 HelloCordova[93558:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 13:50:16.556 HelloCordova[93558:70b] Unlimited access to network resources
+2014-08-04 13:50:16.579 HelloCordova[93558:70b] [CDVTimer][statusbar] 6.403029ms
+2014-08-04 13:50:16.580 HelloCordova[93558:70b] [CDVTimer][keyboard] 0.082970ms
+2014-08-04 13:50:16.580 HelloCordova[93558:70b] [CDVTimer][TotalPluginStartup] 7.342994ms
+2014-08-04 13:50:16.613 HelloCordova[93558:70b] Resetting plugins due to page load.
+2014-08-04 13:50:16.742 HelloCordova[93558:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+2014-08-04 13:50:50.124 HelloCordova[93878:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-04 13:50:50.132 HelloCordova[93878:70b] Unlimited access to network resources
+2014-08-04 13:50:50.156 HelloCordova[93878:70b] [CDVTimer][statusbar] 6.412983ms
+2014-08-04 13:50:50.156 HelloCordova[93878:70b] [CDVTimer][keyboard] 0.084043ms
+2014-08-04 13:50:50.157 HelloCordova[93878:70b] [CDVTimer][TotalPluginStartup] 7.367015ms
+2014-08-04 13:50:50.190 HelloCordova[93878:70b] Resetting plugins due to page load.
+2014-08-04 13:50:50.310 HelloCordova[93878:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-08-18 12:13:04.248 HelloCordova[31285:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-18 12:13:04.311 HelloCordova[31285:70b] Unlimited access to network resources
+2014-08-18 12:13:05.713 HelloCordova[31285:70b] [CDVTimer][statusbar] 102.810025ms
+2014-08-18 12:13:05.713 HelloCordova[31285:70b] [CDVTimer][keyboard] 0.091970ms
+2014-08-18 12:13:05.714 HelloCordova[31285:70b] [CDVTimer][TotalPluginStartup] 103.760004ms
+2014-08-18 12:13:05.874 HelloCordova[31285:70b] Resetting plugins due to page load.
+2014-08-18 12:13:06.381 HelloCordova[31285:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+2014-08-18 12:13:51.420 HelloCordova[31874:70b] Multi-tasking -> Device: YES, App: YES
+2014-08-18 12:13:51.429 HelloCordova[31874:70b] Unlimited access to network resources
+2014-08-18 12:13:51.457 HelloCordova[31874:70b] [CDVTimer][statusbar] 8.508027ms
+2014-08-18 12:13:51.457 HelloCordova[31874:70b] [CDVTimer][keyboard] 0.108004ms
+2014-08-18 12:13:51.458 HelloCordova[31874:70b] [CDVTimer][TotalPluginStartup] 9.505033ms
+2014-08-18 12:13:51.653 HelloCordova[31874:70b] Resetting plugins due to page load.
+2014-08-18 12:13:51.816 HelloCordova[31874:70b] Finished load of: file:///Users/mhartington/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D0494371-F8C7-4FF0-8217-6D1C7EDF2C67/HelloCordova.app/www/index.html
+Terminating in response to SpringBoard's termination.
