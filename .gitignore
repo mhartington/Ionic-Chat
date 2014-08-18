@@ -1,3 +1,4 @@
 node_modules/
 platforms/
 .ds_store
+.idea/
