@@ -21,7 +21,8 @@ angular.module('starter', ['ionic'])
   });
 })
 
-
+// All this does is allow the message 
+// to be sent when you tap return
 .directive('input', function($timeout) {
   return {
     restrict: 'E',
