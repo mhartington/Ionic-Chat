@@ -44,13 +44,12 @@
 
     <ion-footer-bar keyboard-attach class="bar-stable item-input-inset">
       <label class="item-input-wrapper">
-        <input type="text" placeholder="Type your message" on-return="sendMessage()" ng-model="data.message" on-focus="inputUp()" on-blur="inputDown()" />
+        <input type="text" placeholder="Type your message" on-return="sendMessage(); closeKeyboard()" ng-model="data.message" on-focus="inputUp()" on-blur="inputDown()" />
       </label>
       <button class="button button-clear" ng-click="sendMessage()">
         Send
       </button>
     </ion-footer-bar>
-
   </ion-pane>
 </body>
 

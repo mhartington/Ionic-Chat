@@ -88,7 +88,9 @@ angular.module('starter', ['ionic'])
     if (isIOS) $scope.data.keyboardHeight = 0;
     $ionicScrollDelegate.resize();
   }
-
+$scope.closeKeyboard = function(){
+  cordova.plugins.Keyboard.close();
+}
   $scope.data = {};
   $scope.myId = '12345';
   $scope.messages = [];
