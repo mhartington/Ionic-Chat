@@ -38,6 +38,13 @@
                         }
                     ]
                 }
+            },
+            "framework": {
+                "parents": {
+                    "WebKit.framework": [],
+                    "CFNetwork.framework": [],
+                    "Security.framework": []
+                }
             }
         }
     },

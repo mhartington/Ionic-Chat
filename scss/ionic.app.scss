@@ -19,80 +19,90 @@ $dark:                            #444 !default;
 $ionicons-font-path:'../lib/ionic/fonts' !default;
 // Include all of Ionic
 @import 'www/lib/ionic/scss/ionic';
-
-.content-stable {
+ .content-stable {
   background: $stable;
 }
-
-.messaging-view {
-
-  .scroll {
-    min-height: 100%;
-    padding: 10px 0 50px;
-  }
-
+.scroll {
+  padding: 10px 0 50px;
+}
+.messages {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
   .message {
-
-    padding: 0 10px 10px;
-
-    .photo {
-      height: 44px;
-      width: 44px;
-      background-color: #d6d6d6;
-      background-size: cover;
-      float: left;
-      font-size: 50px;
-      text-align: center;
-      border-radius: 50%;
-      overflow: hidden;
-    }
-
-    .message {
-      overflow: hidden;
-      padding: 5px 5px 0;
-      text-align: left;
-
-
-      span {
-        background: #fff;
-        padding: 10px;
-        display: inline-block;
-        border-radius: 10px;
-        text-align: left;
-      }
-
-    }
-
-    &.other {
-      .photo {
-        float: right;
-      }
-
-      .message {
-        text-align: right;
-
-        span {
-
-        }
-      }
-    }
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 10px;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    overflow: hidden;
+    text-align: left;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
-
-  .message-input {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background: #fff;
-    z-index: 20;
-
-    input {
-      width: 100%;
-      height: 100%;
-      background: none;
-
-      padding: 0 15px;
-    }
+}
+.time {
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  width: 120px;
+  text-align: center;
+  padding: 0 0 0 0;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transform: translate3d(10px, 0, 0);
+  -moz-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  &.slide-right {
+    -webkit-transform: translate3d(130px, 0, 0);
+    -moz-transform: translate3d(130px, 0, 0);
+    transform: translate3d(130px, 0, 0);
   }
+}
+//This will change
+.messages.other {
+  .message {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    text-align: right;
+  }
+  .message.slide-right {
+    -webkit-transform: translate3d(120px, 0, 0);
+    -moz-transform: translate3d(120px, 0, 0);
+    transform: translate3d(120px, 0, 0);
+  }
+  span {
+    color: black;
+    background-color: #C7C7CC;
+  }
+}
+span {
+  background: #007AFF;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 240px;
 }

@@ -6,12 +6,9 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <title></title>
 
-  <!-- <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-     -->
-  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+  -->
+  <!-- compiled css output -->
+  <link href="css/ionic.app.css" rel="stylesheet">
   <link href="css/ionic.app.css" rel="stylesheet">
   <!-- ionic/angularjs js -->
   <script src="lib/ionic/js/ionic.bundle.js"></script>
@@ -30,13 +27,19 @@
       <h1 class="title">Ioinc Chat</h1>
     </ion-header-bar>
 
-    <ion-content class="content-stable" ng-style="{ bottom: data.keyboardHeight + 'px' }">
+    <ion-content class="content-stable"
+                 on-tap="showTime = !showTime">
 
-      <div ng-repeat="message in messages" ng-class="{ other: message.userId != myId }" class="message">
+      <div ng-repeat="message in messages"
+           ng-class="{other: message.userId != myId}"
+           class="messages">
 
-        <div class="photo icon ion-person"></div>
-        <div class="message"><span>{{ message.text }}</span>
+        <div class="message" ng-class="{'slide-right': showTime, '': !showTime}">
+          <span>{{ message.text }}</span>
         </div>
+
+        <div class="time" ng-class="{'slide-right': showTime, '': !showTime}">{{message.time}}</div>
+
 
       </div>
 
