@@ -73,13 +73,14 @@ angular.module('starter', ['ionic'])
     alternate = !alternate;
 
     var d = new Date();
-  d = d.toLocaleTimeString().replace(/:\d+ /, ' ');
-
-    $scope.messages.push({
-      userId: alternate ? '12345' : '54321',
-      text: $scope.data.message,
-      time: d
-    });
+    d = d.toLocaleTimeString().replace(/:\d+ /, ' ');
+    if($scope.data.message){
+      $scope.messages.push({
+        userId: alternate ? '12345' : '54321',
+        text: $scope.data.message,
+        time: d
+      });
+    }
 
     delete $scope.data.message;
     $ionicScrollDelegate.scrollBottom(true);
